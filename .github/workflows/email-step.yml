@@ -1,0 +1,15 @@
+name: ga2-email-step
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2006299@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      - name: confirm-run
+        run: echo "workflow executed"
